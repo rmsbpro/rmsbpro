@@ -1,1 +1,1 @@
-<img width=100% src="https://player.vimeo.com/external/121142413.sd.mp4?s=1b8ed80f9ce01d9ecf4af3eb12c879e00f29850f&profile_id=112&oauth2_token_id=57447761"/>
+<img width=50% src="https://images.pexels.com/photos/207580/pexels-photo-207580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
