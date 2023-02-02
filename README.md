@@ -7,11 +7,11 @@ truir dados ou informações sem autorização expressa ou tácita do titular do
 vulnerabilidades para obter vantagem ilícita:
 ### Pena - detenção, de 3 (três) meses a 1 (um) ano, e multa.
 
-~~~ 1§ 1 o Na mesma pena incorre quem produz, oferece, distribui, vende ou difunde dispositivo ou programa de computador com o intuito de permitir a prática da conduta definida no caput. ~~~
+1§ 1 o Na mesma pena incorre quem produz, oferece, distribui, vende ou difunde dispositivo ou programa de computador com o intuito de permitir a prática da conduta definida no caput.
 
-~~~§ 2 o Aumenta-se a pena de um sexto a um terço se da invasão resulta prejuízo econômico.~~~
+§ 2 o Aumenta-se a pena de um sexto a um terço se da invasão resulta prejuízo econômico.
 
-~~~§ 3 o Se da invasão resultar a obtenção de conteúdo de comunicações eletrônicas privadas, segredos comerciais ou industriais, informações sigilosas, assim definidas em lei, ou o controle remoto não autorizado do dispositivo invadido:~~~
+§ 3 o Se da invasão resultar a obtenção de conteúdo de comunicações eletrônicas privadas, segredos comerciais ou industriais, informações sigilosas, assim definidas em lei, ou o controle remoto não autorizado do dispositivo invadido:
 
 Pena - reclusão, de 6 (seis) meses a 2 (dois) anos, e multa, se a conduta não constitui crime
 mais grave.
