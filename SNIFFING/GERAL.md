@@ -2,7 +2,7 @@
 ~~~
 sniffing só funciona dentro de uma LAN, protocolo ARP,
 é preciso entrar nessa LAN.
-
+~~~
 Dispositivo usado: raspibarry pie, mandando para internet ou wifi proximo.
  
 
