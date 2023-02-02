@@ -1,0 +1,6 @@
+@@@@BETTERCAP@@@
+OBS: ALTERAR A PORTA PADRÃO PARA OUTRO VALOR: EX: 7070, POIS POR PADRÃO ELE VEM
+COM A 80, QUE JÁ É OCUPADA.
+OBS: ACESSAR O PAINEL DELE: http://127.0.0.1:7070
+OBS: ele vai operar como spoofing, proxy e ssl-strip ao mesmo tempo,
+ele vai hospedar as páginas falsas. (DNSspoofing com SSLinspection) 
