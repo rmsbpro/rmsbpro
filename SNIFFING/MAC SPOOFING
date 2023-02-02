@@ -1,0 +1,3 @@
+@@@@@@ MAC SPOOFING @@@@@
+Altera o MAC da placa de rede utilizada
+#macchanger -r eth0
