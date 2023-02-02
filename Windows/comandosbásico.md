@@ -2,6 +2,8 @@ Comandos Básico Win:
 
 cls ⇒Limpa a tela
 help [comando] ⇒ ajuda
+
+
 [comando] /? ⇒ ajuda
 dir  ⇒ listar diretorios
 dir /s ⇒ exibe diretorios recursivos
