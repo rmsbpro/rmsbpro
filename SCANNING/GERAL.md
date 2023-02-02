@@ -1,7 +1,5 @@
 ESCANEAMENTO
 
-
-
 # nmap -sTUR -O -v -p 1-65535 -P0 hostname.domain
 
 Bom, agora, explicando:
