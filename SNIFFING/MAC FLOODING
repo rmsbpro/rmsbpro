@@ -1,0 +1,6 @@
+(estoura a memória do switch, ela estoura a tabela CAM, a switch passa a funcionar em broadcast
+TABELA CAM, atrela MAC do host a uma porta da switch
+comando
+#macof (gera os lixos e pacotes para o estouro)
+é um ataque muito ruidoso.
+OBS: hj os switch estão protegidos contra isso, usando o macof pode ocorrer no máximo um DoS na rede.
