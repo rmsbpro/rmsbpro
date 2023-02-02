@@ -1,0 +1,54 @@
+@@@@ETTERCAP@@@
+OBS: só funciona se a máquina atacante não estiver como Gateway.
+em caso de VMs tem q estar em modo bridge
+OBS:  o redirecionamento pode falhar (CUIDADO O ETTERCAP MUDA SEMPRE O ENCAMINHAMENTO,
+SE ESTIVER 1 ELE PÕE 0, VICE-VERSA)
+#echo 1 > /proc/sys/net/ipv4/ip_forward
+#cat /proc/sys/net/ipv4/ip_forward
+OBS: crie mais uma interface virtual cliente para fazer a captura
+>>>PASSO1 
+Execute o ettecap, selecione a interface q está na rede q vc quer 
+snifar, click na "lupa", para buscar hosts disponíveis.
+OBS: verifique se o encaminhamento foi ativado.
+#cat /proc/sys/net/ipv4/ip_forward
+#echo 1 > /proc/sys/net/ipv4/ip_forward
+
+>>>PASSO2
+Abra a "hostlist", selecione o target1(alvo1) e o target2(alvo2)
+
+
+
+>>>PASSO3
+Selecione "ARP POISON" dentro de MITM menu e de OK
+
+
+>>>PASSO4
+prepare o wireshark para a captura, de acordo com o serviço q vc quer capturar,
+o serviço ALVO é um trafego TELNET entre as duas máquinas.
+Selecione a interface da rede ALVO.
+
+
+>>>PASSO5
+simule o TELNET acesso da máquina ALVO débian, para a wnidows onde está o serviço
+copie um arquivo do windows para o debian
+
+
+
+
+>>>PASSO6
+Para filtrar a captura do wireshark, selecione o folow na concexão TELNET 
+desejada e obtenha as credenciais
+OBS: para ter melhor visialização, alterne entre as conversações.
+
+
+
+>>>PASSO7
+Para capturar algum arquivo que q foi transferido basta, selecionar folow em um pacote
+"telnet-data", ao trazer a informação, mude a visualização para "raw", após salve como
+o arquivo no nome e estensão q estão descritos no pacote.
+OU basta obter o conteudo de um arquivo q foi lido remotamente pelo TELNET 
+q estará em claro.
+
+
+
+
