@@ -1,0 +1,47 @@
+@@@@ SSL INSPECTION @@@@
+OBS: usado por firewals para verificar conteudo.
+
+-OFERECE PARA A VÍTIMA UM CERTIFICADO FALSO
+-NÃO FUNCIONA PARA SITES COM HSTS
+-entre vc e a vítima, certificados auto assinados
+ao repassar para o destino correto o atacante faz com certificados válidos,
+recebo do site e devolvo com certificado auto assinado.
+- A vítima é indusida a concordar em usar um certificado auto assinado q vc enviou para ela.
+(pode levar semanas para a vítima cair no ataque)
+(tem q ter uma máquina muito preparada para receber todas essas requisições, pode travar a máquina atacante)
+
+
+@@@@@@@ DNS SPOOFING @@@@@
+
+Na consuta DNS eu respondo pra ele um IP q eu domino com uma página falsa, clone da original.
+(fácil de fazer, pois o DNS corre em claro)
+Páginas com HSTS serão dificeis de cair nisso.
+
+
+@@@@ SSL STRIPPING @@@@
+usada para retirar criptografia
+requisitos:
+-http na 80
+-https na 443
+-e os usuário não digitar o endereço completo
+-A conexão http é interceptada antes de ela ser redirecionada para o https.
+-Em seguida, o atacante adiciona a funcionalidade SSL antes de
+	enviar os Pacotes ao servidor WEB (conexão legítima);
+-Na resposta, o SSL Stripping irá remover a Criptografia antes de
+	enviar os Pacotes à Vítima.
+OBS: vai aparecer para o usuário q a conexão é insegura, pois a conexão entre vc e ele é em http.
+OBS: não irá funcionar em navegadores atualizados que irão obrigar a sair https via HSTS.
+
+para contornar se usa o SSLstrip2 e o dns2proxy, apenas alterando a url, antes de mandar para a
+vitima. ex: troca www por wvvw , troca .com por .org etc...
+
+Softwares:
+DNSspoofing
+HTTP Proxy
+SSLStrip2
+OBS: ao usar, possuem as limitações de gargalo e capacidade de responder as requisições.
+
+OBS: dominios .br dificilmente são pre carregados HSTS
+
+DSNIFF 	-macof
+	-arpspoof
