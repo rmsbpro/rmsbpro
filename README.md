@@ -6,7 +6,7 @@ mediante violação indevida de mecanismo de segurança e com o fim de obter, ad
 truir dados ou informações sem autorização expressa ou tácita do titular do dispositivo ou instalar
 vulnerabilidades para obter vantagem ilícita:
 ### Pena - detenção, de 3 (três) meses a 1 (um) ano, e multa.
-~~~1§ 1 o Na mesma pena incorre quem produz, oferece, distribui, vende ou difunde dispositivo ou programa de computador com o intuito de permitir a prática da conduta definida no caput.~~~
+~~~ 1§ 1 o Na mesma pena incorre quem produz, oferece, distribui, vende ou difunde dispositivo ou programa de computador com o intuito de permitir a prática da conduta definida no caput. ~~~
 
 ~~~§ 2 o Aumenta-se a pena de um sexto a um terço se da invasão resulta prejuízo econômico.~~~
 
