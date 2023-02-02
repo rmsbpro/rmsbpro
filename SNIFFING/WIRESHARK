@@ -1,0 +1,42 @@
+@@@@@@WIRESHARK@@@@@
+
+OBS: o preambulo não faz parte do protocolo ethernet, porém todos os frames são separados por preambulo
+
+AO LOCALIZAR O ALVO NA CAPTURA, clique botão direito, folow TCP stream
+
+OBS: em máquina virtual não há captura, TEM QUE CAPTURAR EM NATIVA
+
+RECOMENDA FILTAR A CAPTURA (FACILITA A ANALISE)
+
+SEMPRE SALVE a captura EM PCAP
+
+Salvar em RAW tb é uma opção
+
+OBS: Para abrir arquivo de captura, tem q abrir wireshark antes e dar "open file"
+
+@@@ANALIZANDO TRAFEGO FTP@@@
+
+prucure por:
+credenciaia e arquivos transferidos
+
+FTP-DATA = indica transferência de arquivo
+>>>ao achar o arquivo, clique botão direito, folow "tcp stream"
+o arquivo irá abrir em formato de dado puro, mude a visualização para "raw" e salve
+mantendo o nome do arquivo, ex: se for imagem fica, NOME_DA_IMAGEM.PNG, da forma
+q foi localizado pelo wireshark
+
+
+@@@Para a prova@@@
+
+capturar um trafego de rede, salvar essa captura
+extrair a informação da captura (credencial e arquivos)
+terão que ver os arquivos.(SEMPRE SALVE EM RAW)
+
+
+
+
+
+@@@ANALIZANDO TELNET@@@@@
+>>>procurendo credenciais
+OBS: troque a conversation para usuário ou servidor, para melhor visualizar algo
+usuário e password
