@@ -1,10 +1,8 @@
 Comandos Básico Win:
 
 cls ⇒Limpa a tela
-help [comando] ⇒ ajuda
 
-
-[comando] /? ⇒ ajuda
+help [comando] ⇒ ajuda [comando] /? ⇒ ajuda
 dir  ⇒ listar diretorios
 dir /s ⇒ exibe diretorios recursivos
 dir /a ⇒ exibe diretorios [ver arq ocultos ou especificos]
