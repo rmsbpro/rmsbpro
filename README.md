@@ -1,3 +1,15 @@
+Threat Researcher | OSTH | OSWP | OSED ⏳️🚀| eCPPT | C-APIPen | CRTeamer | CCEP | CTI | Exploit Development | Adversary Emulation
+
+3x CVE PUBLICADAS:
+
+CVE-2026-100875
+CVE-2026-100876
+CVE-2026-100877
+
+https://www.linkedin.com/in/rogermagno/
+
+========================================================================================================================
+
 ### 1. Este material é para fins puramente didáticos, portanto todas as previsões legais devem ser observadas.
 
 ### Art. 154-A. 
@@ -26,6 +38,4 @@ tado, da Câmara Legislativa do Distrito Federal ou de Câmara Municipal; ou
 IV - dirigente máximo da administração direta e indireta federal, estadual, municipal ou do Dis-
 trito Federal.
 
-### Linux
-* ![Escalação de privilégio](https://github.com/rmsbpro/rmsbpro/blob/main/linux/escalacao_de_privilegio.md) 
-* Shell reverso
+
