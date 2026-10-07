@@ -8,7 +8,7 @@ CVE-2026-100877
 
 https://www.linkedin.com/in/rogermagno/
 
-========================================================================================================================
+========================================================================================
 
 ### 1. Este material é para fins puramente didáticos, portanto todas as previsões legais devem ser observadas.
 
