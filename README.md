@@ -1,6 +1,6 @@
 Threat Researcher | OSTH | OSWP | OSED ⏳️🚀| eCPPT | C-APIPen | CRTeamer | CCEP | CTI | Exploit Development | Adversary Emulation
 
-3x CVE PUBLICADAS:
+5x CVE PUBLICADAS:
 
 CVE-2026-100875 | 
 CVE-2026-100876 |
